@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/product-of-array-except-self/
+
 function productExceptSelf(nums: number[]): number[] {
   if (nums.length === 2) return nums.reverse();
   let total: number = 1;
